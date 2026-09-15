@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_movements"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/etCodigoProducto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/hint_product_code"
+        android:background="@color/input_gray"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/hint_quantity"
+        android:inputType="number"
+        android:background="@color/input_gray"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+        <TableRow>
+            <Button
+                android:id="@+id/btnEntrada"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:text="@string/btn_entry"
+                android:backgroundTint="@color/colorSuccess"
+                android:textColor="@color/white"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/btnSalida"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:text="@string/btn_exit"
+                android:backgroundTint="@color/colorDanger"
+                android:textColor="@color/white"
+                android:layout_marginStart="8dp"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

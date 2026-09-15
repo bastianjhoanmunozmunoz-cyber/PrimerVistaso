@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">BodegaExpress</string>
+
+    <!-- Generales -->
+    <string name="title_bodega">BODEGA EXPRESS</string>
+
+    <!-- Splash Screen (Main 5) -->
+    <string name="subtitle_splash">Gestión inteligente de inventario</string>
+    <string name="btn_start">COMENZAR</string>
+
+    <!-- Login (Main 1) -->
+    <string name="subtitle_login">Acceso de personal</string>
+    <string name="hint_username">Usuario / Correo Electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="check_remember">Recordar sesión</string>
+    <string name="btn_login_text">INICIAR SESIÓN</string>
+    <string name="toast_session_saved">Sesión guardada</string>
+
+    <!-- Dashboard (Main 2) -->
+    <string name="capacity_text">Capacidad de Almacenamiento</string>
+    <string name="btn_inventory">INVENTARIO</string>
+    <string name="btn_movements">MOVIMIENTOS</string>
+
+    <!-- Inventario (Main 3) -->
+    <string name="title_inventory">Gestión de Inventario</string>
+    <string name="filter_category">Categoría:</string>
+    <string name="sort_by">Ordenar por:</string>
+    <string name="sort_name">Nombre</string>
+    <string name="sort_stock">Stock (Crítico)</string>
+    <string name="urgency_level">Nivel de Urgencia global: </string>
+
+    <!-- Movimientos (Main 4) -->
+    <string name="title_movements">Registrar Movimiento</string>
+    <string name="hint_product_code">Código del Producto</string>
+    <string name="hint_quantity">Cantidad</string>
+    <string name="btn_entry">ENTRADA (+)</string>
+    <string name="btn_exit">SALIDA (-)</string>
+    <string name="toast_entry">Entrada registrada</string>
+    <string name="toast_exit">Salida registrada</string>
+</resources>
