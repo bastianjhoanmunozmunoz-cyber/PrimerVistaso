@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".MainActivity5">
+    tools:context=".SplashActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
             android:layout_marginBottom="40dp"/>
 
         <Button
-            android:id="@+id/btnComenzar"
+            android:id="@+id/btnStart"
             android:layout_width="250dp"
             android:layout_height="60dp"
             android:text="@string/btn_start"
@@ -46,4 +46,5 @@
             android:textSize="18sp"
             android:textStyle="bold"/>
     </LinearLayout>
+
 </RelativeLayout>

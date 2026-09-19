@@ -13,27 +13,27 @@
         android:theme="@style/Theme.BodegaExpress">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name=".MainActivity2"
+            android:name=".DashboardActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name=".MainActivity3"
+            android:name=".InventoryActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name=".MainActivity4"
+            android:name=".MovementsActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name=".MainActivity5"
+            android:name=".SplashActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>

@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:background="@color/white"
     android:padding="16dp"
-    tools:context=".MainActivity3">
+    tools:context=".InventoryActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
         android:text="@string/filter_category"/>
 
     <Spinner
-        android:id="@+id/spinnerCategorias"
+        android:id="@+id/spinnerCategories"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginBottom="16dp"
@@ -37,25 +37,26 @@
         android:text="@string/sort_by"/>
 
     <RadioGroup
-        android:id="@+id/rgOrden"
+        android:id="@+id/radioGroupSort"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginBottom="16dp">
 
         <RadioButton
-            android:id="@+id/rbNombre"
+            android:id="@+id/radioName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sort_name"
             android:checked="true"/>
 
         <RadioButton
-            android:id="@+id/rbStock"
+            android:id="@+id/radioStock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sort_stock"
             android:layout_marginStart="16dp"/>
+
     </RadioGroup>
 
     <LinearLayout
@@ -72,16 +73,17 @@
             android:text="@string/urgency_level"/>
 
         <RatingBar
-            android:id="@+id/ratingUrgencia"
+            android:id="@+id/ratingUrgency"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:numStars="5"
             android:stepSize="1"
             style="?android:attr/ratingBarStyleSmall"/>
+
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvProductos"
+        android:id="@+id/rvProducts"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"

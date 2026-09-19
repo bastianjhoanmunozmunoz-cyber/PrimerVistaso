@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:background="@color/white"
-    tools:context=".MainActivity4">
+    tools:context=".MovementsActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
         android:layout_marginBottom="24dp"/>
 
     <EditText
-        android:id="@+id/etCodigoProducto"
+        android:id="@+id/etProductCode"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/hint_product_code"
@@ -27,7 +27,7 @@
         android:layout_marginBottom="16dp"/>
 
     <EditText
-        android:id="@+id/etCantidad"
+        android:id="@+id/etQuantity"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/hint_quantity"
@@ -40,9 +40,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:stretchColumns="0,1">
+
         <TableRow>
+
             <Button
-                android:id="@+id/btnEntrada"
+                android:id="@+id/btnEntry"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:text="@string/btn_entry"
@@ -51,13 +53,15 @@
                 android:layout_marginEnd="8dp"/>
 
             <Button
-                android:id="@+id/btnSalida"
+                android:id="@+id/btnExit"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:text="@string/btn_exit"
                 android:backgroundTint="@color/colorDanger"
                 android:textColor="@color/white"
                 android:layout_marginStart="8dp"/>
+
         </TableRow>
     </TableLayout>
+
 </LinearLayout>

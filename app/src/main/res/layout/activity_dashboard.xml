@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_gray"
-    tools:context=".MainActivity2">
+    tools:context=".DashboardActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
             android:textStyle="bold"/>
 
         <ProgressBar
-            android:id="@+id/progressBarCapacidad"
+            android:id="@+id/progressBarCapacity"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,8 +45,9 @@
             android:stretchColumns="0,1">
 
             <TableRow android:layout_marginBottom="16dp">
+
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardInventario"
+                    android:id="@+id/cardInventory"
                     android:layout_width="0dp"
                     android:layout_height="120dp"
                     android:layout_marginEnd="8dp"
@@ -73,10 +74,11 @@
                             android:textStyle="bold"
                             android:layout_marginTop="8dp"/>
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardMovimientos"
+                    android:id="@+id/cardMovements"
                     android:layout_width="0dp"
                     android:layout_height="120dp"
                     android:layout_marginStart="8dp"
@@ -103,8 +105,12 @@
                             android:textStyle="bold"
                             android:layout_marginTop="8dp"/>
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
+
             </TableRow>
         </TableLayout>
+
     </LinearLayout>
+
 </ScrollView>
